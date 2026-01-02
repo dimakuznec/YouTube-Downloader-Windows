@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 #### Запуск Backend
 ```sh
-uvicorn main:app --host 0.0.0.0 --port 8000
+python -m uvicorn main:app --reload
 ```
 
 ## Использование библиотеки zapret-discord-youtube
